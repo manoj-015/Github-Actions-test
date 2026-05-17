@@ -1,0 +1,7 @@
+services:
+  hello-spring:
+    build: ./springboot/hello-spring
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV_VALUE=something
